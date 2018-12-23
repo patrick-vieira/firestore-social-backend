@@ -14,7 +14,7 @@ export const onCreateFeedback = functions.firestore
   return new Promise<void>((resolve, reject) => {
     const feed: Feed = dataSnapshot.data()
     const from = `${appName} Feedback <${gmailEmail}>`
-    const to = 'amir.gholzam@gmail.com'
+    const to = 'pdsv88@gmail.com'
     const subject = `${feed.feedType} -${feed.user!.email} - ${dataSnapshot.createTime}`
     const text = `
     Feedback type: ${feed.feedType}

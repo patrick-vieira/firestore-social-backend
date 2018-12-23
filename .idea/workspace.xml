@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e0949a8-2fa7-437a-bd8c-c881568b725e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/api/emailAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/api/emailAPI.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/data/httpStatusCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/data/httpStatusCode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/data/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/data/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/Verification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/Verification.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/loginUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/loginUser.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/oauthType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/oauthType.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/registerUserResult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/registerUserResult.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/userStateType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/authorize/userStateType.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/circles/circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/circles/circle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/circles/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/circles/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/circles/userTie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/circles/userTie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/comments/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/comments/comment.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/comments/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/comments/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/baseDomain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/baseDomain.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/email.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/email.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/feed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/feed.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/feedType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/feedType.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/socialError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/common/socialError.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/graphs/graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/graphs/graph.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/graphs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/graphs/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/imageGallery/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/imageGallery/image.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/imageGallery/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/imageGallery/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/notifications/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/notifications/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/notifications/notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/notifications/notification.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/posts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/posts/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/posts/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/posts/post.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/users/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/users/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/users/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/users/profile.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/users/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/users/user.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/users/userProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/users/userProvider.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/votes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/votes/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/votes/vote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/domain/votes/vote.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/authorize/authorizeService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/authorize/authorizeService.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/authorize/publicAuthService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/authorize/publicAuthService.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/comments/commentService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/comments/commentService.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/common/mailService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/common/mailService.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/posts/postService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/posts/postService.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/users/userService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/services/users/userService.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/api/emailAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/api/emailAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/domain/circles/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/domain/circles/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/services/authorize/authorizeService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/services/authorize/authorizeService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/services/authorize/publicAuthService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/services/authorize/publicAuthService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/services/common/mailService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/services/common/mailService.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/src/domain/posts/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/src/domain/posts/post.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/src/services/users/userService.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+              <folding>
+                <element signature="e#1#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/services/posts/postService.js.map">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="sourcemapFileViewerProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/services/posts/postService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/src/domain/users/user.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/src/domain/comments/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/api/emailAPI.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>amir.gholzam</find>
+      <find>palad</find>
+      <find>pdsv88@gmail</find>
+      <find>gmail</find>
+      <find>paladins</find>
+      <find>social</find>
+      <find>onUserCreate</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/functions/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/functions/src/services/authorize/authorizeService.ts" />
+        <option value="$PROJECT_DIR$/.firebaserc" />
+        <option value="$PROJECT_DIR$/functions/src/services/authorize/publicAuthService.ts" />
+        <option value="$PROJECT_DIR$/functions/src/domain/circles/index.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/functions/src/api/emailAPI.ts" />
+        <option value="$PROJECT_DIR$/functions/src/services/common/mailService.ts" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/firestore.rules" />
+        <option value="$PROJECT_DIR$/functions/src/services/comments/commentService.ts" />
+        <option value="$PROJECT_DIR$/functions/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/functions/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="index.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="git&#9;ACTION&#9;Git.Log" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.11.5/bin/node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/functions/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="install" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="install" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.deploy" />
+      <item itemvalue="npm.install" />
+      <item itemvalue="npm.start" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e0949a8-2fa7-437a-bd8c-c881568b725e" name="Default Changelist" comment="" />
+      <created>1541963325787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541963325787</updated>
+      <workItem from="1541963327076" duration="7985000" />
+      <workItem from="1542153735792" duration="2296000" />
+      <workItem from="1542253482386" duration="6581000" />
+      <workItem from="1542543565264" duration="1687000" />
+      <workItem from="1542546071568" duration="36000" />
+      <workItem from="1542546685704" duration="826000" />
+      <workItem from="1542547527935" duration="15738000" />
+      <workItem from="1542757217126" duration="3571000" />
+      <workItem from="1544315712357" duration="1227000" />
+      <workItem from="1544998933109" duration="1090000" />
+      <workItem from="1545532423142" duration="553000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41590000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1022" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2494331" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" weight="0.3280543" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36621314" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/authorize/Verification.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/circles/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20793" selection-start-column="20793" selection-end-column="20793" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/config.d.ts" />
+    <entry file="file://$PROJECT_DIR$/functions/src/data/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/data/httpStatusCode.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/firebase-debug.log" />
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firestore.indexes.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/index.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="675">
+            <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/services/authorize/authorizeService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3293" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.firebaserc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firestore.rules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="321" lean-forward="true" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/services/authorize/authorizeService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/data/httpStatusCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/data/httpStatusCode.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/.snyk">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/data/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/domain/common/baseDomain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/domain/comments/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/common/baseDomain.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/common/email.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/domain/comments/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/services/comments/commentService.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/domain/posts/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/domain/posts/post.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/services/posts/postService.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/services/common/mailService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/api/emailAPI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/services/authorize/publicAuthService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3053">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/services/comments/commentService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="e#1#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/comments/comment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/posts/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/posts/post.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/users/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/domain/comments/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/api/emailAPI.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/services/users/userService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/services/posts/postService.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/services/posts/postService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

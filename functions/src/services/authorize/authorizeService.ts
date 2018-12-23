@@ -7,7 +7,7 @@ import * as moment from 'moment'
 import * as express from 'express'
 import * as bodyParser from 'body-parser'
 import { SocialError } from '../../domain/common/index'
-import { Verification } from '../../domain/authorize/verification'
+import { Verification } from '../../domain/authorize/Verification'
 import { UserStateType } from '../../domain/authorize/userStateType'
 import { HttpStatusCode } from '../../data/httpStatusCode'
 

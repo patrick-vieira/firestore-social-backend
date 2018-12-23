@@ -1,7 +1,7 @@
 {
   "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "author": "backend for react social network",
+  "description": "backend for paladins.app",
+  "author": "Patrick Vieira",
   "main": "dist/index.js",
   "scripts": {
     "serve": "npm run build && firebase serve --only functions",

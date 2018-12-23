@@ -22,10 +22,10 @@ and then install the package
  
 #### Install back-end server/serverless
 
- 1. Fork the [firestore-social-backend](https://github.com/Qolzam/firestore-social-backend) repository on Github
- 1. Clone your fork to your local machine 
+ 
+ 1. change your node to v6
     ```bash
-    git clone git@github.com:<yourname>/firestore-social-backend.git
+    nvm use v6
     ```
  1. Go to the project root directory 
     ```bash

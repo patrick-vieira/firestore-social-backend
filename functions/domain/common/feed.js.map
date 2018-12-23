@@ -1,0 +1,1 @@
+{"version":3,"file":"feed.js","sourceRoot":"","sources":["../../src/domain/common/feed.ts"],"names":[],"mappings":";;AAGA,MAAa,IAAI;IAEf;;OAEG;IACH;IACE;;OAEG;IACE,EAAW;IAElB;;OAEG;IACI,IAAa;IAEpB;;OAEG;IACI,QAAmB;IAE1B;;OAEG;IACI,IAAW;QAfX,OAAE,GAAF,EAAE,CAAS;QAKX,SAAI,GAAJ,IAAI,CAAS;QAKb,aAAQ,GAAR,QAAQ,CAAW;QAKnB,SAAI,GAAJ,IAAI,CAAO;IAGlB,CAAC;CAEF;AA7BD,oBA6BC"}
